@@ -84,6 +84,12 @@ advertising use cases in the web platform in a privacy preserving way.
 In particular, we think this API could be extended by using server side
 aggregation to provide richer data, which we are continuing to explore.
 
+Use Cases
+---------
+
+-   **View-through conversion tracking**: Measure the effectiveness of a campaign to generate conversions based on views of an ad.
+-   **Click-through conversion tracking**: Measure the effectiveness of a campaign to generate navigations to an ad landing page.
+
 Prior Art
 ---------
 
