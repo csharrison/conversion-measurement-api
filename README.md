@@ -130,6 +130,16 @@ window.open("https://dest.example", "_blank",
 
 At the time window.open() is invoked with these attributes specified in `features`, if the associated window has a [transient activation](https://html.spec.whatwg.org/multipage/interaction.html#transient-activation), an attribution source event will be created and handled following [Handling an attribution source event](#handling-an-attribution-source-event).
 
+Example code in JavaScript:
+```javascript
+window.open("https://toasters.example/purchase", "Advertiser Window", {
+  attributionSourceEventId: 12345678
+  attributionDestination: "https://toasters.example",
+  attributionReportTo: "https://ad-tech.example",
+  attributionExpiry: 604800000
+});
+```
+
 ### Handling an attribution source event
 
 An attribution source event will be logged to storage if the resulting document being
